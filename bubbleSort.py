@@ -6,7 +6,7 @@ def bubbleSort(T):
             if T[i] > T[i+1]:
                 T[i], T[i+1] = T[i+1], T[i]
 
-#Example
+#Example with random table
 from random import randint
 
 Y = [randint(1,100) for i in range(20)]
